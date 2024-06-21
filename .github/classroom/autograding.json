@@ -169,18 +169,6 @@
       "points": 30
     },
     {
-      "name": "Exercise 29 - Print Spiral Matrix - Hard",
-      "run": "pytest exercises/test_exercise_29.py",
-      "timeout": 15,
-      "points": 30
-    },
-    {
-      "name": "Exercise 30 - Caesar Cipher for Emoji - Hard",
-      "run": "pytest exercises/test_exercise_30.py",
-      "timeout": 15,
-      "points": 30
-    },
-    {
       "name": "Exercise 31 - Sum of Neighbors - Hard",
       "run": "pytest exercises/test_exercise_31.py",
       "timeout": 15,
@@ -207,12 +195,6 @@
     {
       "name": "Exercise 35 - Compress List - Hard",
       "run": "pytest exercises/test_exercise_35.py",
-      "timeout": 15,
-      "points": 30
-    },
-    {
-      "name": "Exercise 36 - Find All Positions - Hard",
-      "run": "pytest exercises/test_exercise_36.py",
       "timeout": 15,
       "points": 30
     },
