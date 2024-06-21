@@ -831,7 +831,7 @@ Total: 14
 Total: 13
 
 ## Hard 🥵
-Total: 11
+Total: 8
 
 Each exercise is designed to challenge different aspects of problem-solving, from simple arithmetic to complex logical reasoning. The estimated completion time for the exercises ranges from 5 minutes for the simplest tasks to 25 minutes for the most complex ones. This gives an average expected time of approximately 10-15 minutes per exercise, depending on the student's prior knowledge and experience.
 
