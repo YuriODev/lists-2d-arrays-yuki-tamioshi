@@ -665,52 +665,6 @@ This exercise tests the ability to process a sequence of operations and maintain
 ### Note:
 This exercise tests the ability to manipulate strings and lists in Python.
 
-## Exercise 29: Print Spiral Matrix - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Print an `n x n` matrix filled with numbers from `1` to `n^2` in a spiral order starting from the top left corner and going clockwise.
-
-### Input:
-- An integer `n`.
-
-### Output:
-- The `n x n` matrix filled with numbers in a spiral order.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 4      | 1 2 3 4<br>12 13 14 5<br>11 16 15 6<br>10 9 8 7 |
-| 2   | 3      | 1 2 3<br>8 9 4<br>7 6 5 |
-| 3   | 5      | 1 2 3 4 5<br>16 17 18 19 6<br>15 24 25 20 7<br>14 23 22 21 8<br>13 12 11 10 9 |
-| 4   | 2      | 1 2<br>4 3 |
-
-
-### Note:
-This exercise tests the ability to generate and manipulate 2D arrays in Python.
-
-## Exercise 30: Caesar Cipher for Emoji - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** The task is similar to the Caesar Cipher problem, with one difference: the characters to be encoded are from the `1F600-1F64F` range of the Unicode character table. The encoding is UTF-8. The shift is the same for all characters. The shift is cyclic, meaning if a shift of one is applied to the last character of the alphabet, it will be replaced by the first character, and vice versa. Write a program that encrypts text using the Caesar Cipher. The first line indicates the encryption shift used: an integer. A positive number corresponds to a shift to the right. The second line indicates a non-empty phrase to be encrypted.
-
-### Input:
-- An integer representing the shift.
-- A string of emojis to be encrypted.
-
-### Output:
-- The encrypted string.
-
-### Examples:
-
-| No. | Inputs      | Outputs      |
-| --- | ----------- | ------------ |
-| 1   | 2<br>😍😎😏 | 😏😐😑       |
-| 2   | 1<br>😀😁😂 | 😁😂😃       |
-| 3   | 3<br>😅😆😇 | 😈😉😊       |
-| 4   | -1<br>😜😝😛 | 😛😚😙       |
-
-### Note:
-This exercise tests the ability to work with Unicode characters and perform cyclic shifts in Python.
-
 ## Exercise 31: Sum of Neighbors - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
 **Problem:** Write a program that takes a list of numbers in one line. The program should print the sum of two neighbors for each element of this list. For elements at the edges of the list, one of the neighbors is considered to be the element at the opposite end of the list. If only one number is provided as input, print that number itself. The output should contain a single line of numbers of the new list, separated by spaces.
@@ -821,29 +775,6 @@ This exercise tests the ability to find and print the longest words in a string 
 
 ### Note:
 This exercise tests the ability to rearrange elements in a list without using additional storage in Python.
-
-## Exercise 36: Find All Positions - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Write a program that takes a list of numbers and a number (in separate lines) and then prints all positions where this number occurs in the given list (positions in the list are numbered from `1`). Positions should be printed in ascending order. If the number is not found in the list, print the string `None` (without quotes, with a capital letter).
-
-### Input:
-- A list of integers entered in a single line.
-- An integer `x`.
-
-### Output:
-- The positions of the number `x` in the list.
-
-### Examples:
-
-| No. | Inputs             | Outputs     |
-| --- | ------------------ | ----------- |
-| 1   | 5 7 3 4 9 8 4 7 4<br>4 | 4 7 9      |
-| 2   | 1 2 3 4 5 6 7 8 9<br>5 | 5          |
-| 3   | 10 20 30 40 50 60<br>25 | None      |
-| 4   | 11 22 33 44 55 66 77 88<br>66 | 6 |
-
-### Note:
-This exercise tests the ability to search and find elements in a list in Python.
 
 ## Exercise 37: Decode Run-Length Encoding - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
